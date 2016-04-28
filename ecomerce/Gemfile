@@ -25,7 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #Devise para la autenticacion de usuarios
 #gem 'devise'
+
+#estabilizando la version de devise
 #gem 'devise', '~> 4.0' 
+
+#recuperando la gema desde el repositorio en github.
 gem 'devise', github: 'plataformatec/devise'
 
 # Use ActiveModel has_secure_password
